@@ -1,1 +1,1 @@
-task 1 = Print putchar
+0. _putchar
