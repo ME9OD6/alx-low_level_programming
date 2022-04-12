@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - main function stsrt point
- * Description: To print _putchar in a new line
- * Return: Always 0 (Success)
+ * main-main block
+ * Description:print -putchar in a new line
+ * Return:this program return zero
  */
 int main(void)
 {
 	_putchar('_');
 	_putchar('p');
-	_putchar('ú');
+	_putchar('u');
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
