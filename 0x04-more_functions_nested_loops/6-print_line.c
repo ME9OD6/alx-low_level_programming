@@ -2,15 +2,13 @@
 
 /**
  * print_line - draw a straight line in terminal
- * @n:number of times to print character
+ * @n: Integer amount of _
  */
 void print_line(int n)
 {
 	char c;
 
-	for (n = 0; c < n; c++)
-	{
+	for (c = 0; c < n; c++)
 		_putchar('_');
-	}
 	_putchar('\n');
 }
