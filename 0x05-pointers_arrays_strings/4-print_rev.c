@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int length, x, half;
 	char mel;
 
-	for (length = 0; s[length] != '0'; length++)
+	for (length = 0; s[length] != '\0'; length++)
 	;
        
 	x = 0;
