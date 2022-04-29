@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recussion - This prints a string
+ * _puts_recursion - This prints a string
  * @s: pointer to char
  * Return: No.
  */
