@@ -13,7 +13,7 @@ int check_int(int square, int x)
 		return (x);
 	else if (x > square / x)
 		return (check_int(square, x - 1));
-	else if (x < square / x))
+	else if (x < square / x)
 		return (check_int(square, x + 1));
 	else
 		return (-1);
