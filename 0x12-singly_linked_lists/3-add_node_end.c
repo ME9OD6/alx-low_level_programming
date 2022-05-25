@@ -23,7 +23,7 @@ unsigned int get_length(const char *s)
 /**
  * add_node_end - add new node to the end of a linked list
  * @head: pointer to pointer in linked list
- * @s: set the s attribute 
+ * @str: set the s attribute
  *
  * Return: address of linked list of NULL
  */
