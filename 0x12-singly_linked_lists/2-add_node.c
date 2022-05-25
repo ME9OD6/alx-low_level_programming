@@ -14,7 +14,7 @@ unsigned int get_length(const char *s)
 	len = 0;
 
 	if (s == NULL)
-		return 0;
+		return (0);
 	i = 0;
 	while (s[i] != '\0')
 	{
@@ -37,7 +37,7 @@ list_t *add_node(list_t **head, const char *str)
 	unsigned int len;
 
 	if (new_node == NULL)
-		return NULL;
+		return (NULL);
 	len = get_length(str);
 	new_node->str = strdup(str);
 	new_node->len = len;
