@@ -1,28 +1,25 @@
 #include "main.h"
 
 /**
- * _strlen - returns length of string
- * @s: string
+ * get_length - returns the number of characters in a string
+ * @str: string to count
+ *
  * Return: length of string
  */
-
-int _strlen(char *s)
+int get_length(char *str)
 {
-	int len = 0;
+	int i, length = 0;
 
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-
-	return (len);
+	for (i = 0; str[i] != '\0'; i++)
+		length++;
+	return (length);
 }
-
 
 /**
  * create_file - creates a file
  * @filename: name of file
  * @text_content: text
+ * 
  * Return: 1 - success, -1 error
  */
 
@@ -34,7 +31,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 	if (fd == -1)
 		return (-1);
 
